@@ -11,6 +11,12 @@ The file must consist of valid Scheme commands and define a variable called `Sch
 
 There is a test file and its pdf output (`test_insertGraphics.tm` and `test_insertGraphics.pdf`); the TeXmacs test file reads the files `graphicsCommands.scm`; it expects it to be in the same directory as itself.
 
+## Paths
+
+The paths declared with the `texmacs-module` (Scheme file) and the `use-module` (.ts package) commands is (insertGraphics insertGraphics).
+Commands are `(texmacs-module (insertGraphics insertGraphics))` and `<use-module|(insertGraphics insertGraphics)>`.
+Please in case adapt for your .TeXmacs tree.
+
 ## Security
 
 In order to run this macro in TeXmacs it is necessary to set the security level to "Accept all scripts".
