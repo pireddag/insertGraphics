@@ -1,6 +1,12 @@
 # insertGraphics
 Inserts Scheme graphics in a TeXmacs document
 
+## ToDo
+Current status: program not working as necessary load is commented out
+filter commands which are allowed to load (script is too unsafe now)
+
+## Instructions
+
 The Scheme functions go in `.TeXmacs/progs/insertGraphics` (pay attention to the case!). I have already placed them in a directory with the right name and nesting, the tree `/insertGraphics/` needs to be copied to the `prog` directory of TeXmacs.
 
 Load the package `insertGraphics`.
