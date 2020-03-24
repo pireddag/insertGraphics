@@ -5,7 +5,7 @@ The Scheme functions go in `.TeXmacs/progs/insertGraphics` (pay attention to the
 
 Load the package `insertGraphics`.
 
-The `insertGraphics` command takes one arguments, which is the absolute or relative file paths of a file, and outputs a TeXmacs graphics.
+The `insertGraphics` command takes one argument, which is the absolute or relative file paths of a file, and outputs a TeXmacs graphics.
 
 The file must consist of valid Scheme commands and define a variable called `SchemeGraphics` containing the graphics specified in TeXmacs Scheme format. This variable is then converted into a TeXmacs tree and forwarded to TeXmacs for typesetting.
 
