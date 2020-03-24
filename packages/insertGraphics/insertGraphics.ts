@@ -3,7 +3,7 @@
 <style|<tuple|generic|old-dots>>
 
 <\body>
-  <use-module|(graphics insertGraphics insertGraphics)>
+  <use-module|(insertGraphics insertGraphics)>
 
   <assign|insertGraphics|<macro|fileName|<extern|insertGraphics|<arg|fileName>>>>
 </body>
