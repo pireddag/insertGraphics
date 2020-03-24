@@ -1,4 +1,4 @@
-(texmacs-module (graphics insertGraphics))
+(texmacs-module (insertGraphics insertGraphics))
 
 (tm-define (insertGraphics graphicsFile)
 	   (set! graphicsFile (tree->stree graphicsFile))
